@@ -1,0 +1,178 @@
+==================================================
+CORENAV GUI SPECIFICATION
+Version 1.0 Draft
+
+PURPOSE
+
+The GUI shall provide complete access to all CoreNav
+features without sacrificing keyboard accessibility.
+
+All GUI functionality must be available through
+TUI and CLI interfaces.
+
+==================================================
+MAIN WINDOW
+
+┌─────────────────────────────────────┐
+│ Menu Bar                            │
+├─────────────────────────────────────┤
+│ Toolbar                             │
+├──────┬──────────────────────────────┤
+│ Tree │ Main Content Area            │
+│ View │                              │
+├──────┴──────────────────────────────┤
+│ Terminal Panel                      │
+├─────────────────────────────────────┤
+│ Status Bar                          │
+└─────────────────────────────────────┘
+
+==================================================
+TOP NAVIGATION
+
+File
+Edit
+View
+Navigate
+Project
+Terminal
+Tools
+Plugins
+Workspace
+Security
+Help
+
+==================================================
+PANELS
+
+File Tree
+
+Project Tree
+
+Git Panel
+
+Device Explorer
+
+Network Explorer
+
+Plugin Manager
+
+Workspace Manager
+
+System Monitor
+
+Security Dashboard
+
+Terminal Panel
+
+==================================================
+TERMINAL PANEL
+
+Embedded Terminal
+
+Features
+
+Multiple Tabs
+Split Views
+Profiles
+Terminal Selector
+
+Synchronization Modes
+
+Linked
+Independent
+One-Way
+Two-Way
+Project Root Lock
+
+==================================================
+COMMAND PALETTE
+
+Shortcut
+
+Ctrl+P
+
+Capabilities
+
+Run Commands
+Open Files
+Open Projects
+Run Plugins
+Run Administrative Tasks
+
+==================================================
+LAYOUT SYSTEM
+
+Dockable Panels
+
+Resizable Panels
+
+Multiple Monitors
+
+Save Layout
+
+Load Layout
+
+Workspace-Specific Layouts
+
+==================================================
+THEMING
+
+Light Theme
+
+Dark Theme
+
+High Contrast Theme
+
+Custom Themes
+
+Plugin Themes
+
+==================================================
+ACCESSIBILITY
+
+Full Keyboard Navigation
+
+Screen Reader Support
+
+Custom Font Scaling
+
+Custom Key Bindings
+
+High Contrast Support
+
+==================================================
+STATUS BAR
+
+Current Directory
+
+Workspace
+
+Git Branch
+
+Privilege Level
+
+Terminal State
+
+Plugin Count
+
+System Status
+
+==================================================
+SECURITY INDICATORS
+
+User Mode
+
+Administrator Mode
+
+Root Mode
+
+Read-Only Root Mode
+
+Sandbox Mode
+
+Remote Session Mode
+
+Indicators shall always remain visible.
+
+==================================================
+END SPECIFICATION
